@@ -3,7 +3,7 @@ const {MercadoBitcoin, MercadoBitcoinTrade} = require('./api')
 
 const infoApi = new MercadoBitcoin({currency: 'BTC'})
 
-const tradeApi = new MercadoBitcoin({
+const tradeApi = new MercadoBitcoinTrade({
     currency: 'BTC',
     key: process.env.KEY,
     secret: process.env.SECRET,
